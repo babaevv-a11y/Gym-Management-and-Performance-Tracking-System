@@ -1,10 +1,7 @@
-import './App.css';
+import PbiC from './features/pbiC/PbiC';
 
-export function App() {
-  return (
-    <>
-      <h1>Parcel React App</h1>
-      <p>Edit <code>src/App.jsx</code> to get started!</p>
-    </>
-  );
+function App() {
+  return <div><PbiC /></div>;
 }
+
+export default App;
