@@ -24,6 +24,9 @@ function PbiA() {
          <p className="volume-note">
     Example: 4 sets × 12 reps × 100 lbs = 4800 volume for one exercise.
   </p>
+  <p className="volume-note">
+  All values are shown in pounds (lbs). To estimate kilograms (kg), divide by 2.2.
+</p>
       </header>
 
       <section className="volume-chart-section">
