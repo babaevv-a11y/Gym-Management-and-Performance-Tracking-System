@@ -1,12 +1,14 @@
+import PbiA from './features/pbiA/pbiA';
 import PbiC from './features/pbiC/PbiC';
 import PbiD from './features/pbiD/pbiD';
-import PbiA from './features/pbiA/pbiA';
 
-function App() { // If I want to show pbiC instead of pbiD then I can simply replace <pbiD /> with the <pbiC />
+// All PBIs are imported here,
+// but we only render PbiA for now.
+
+function App() {
   return (
     <div>
-      <pbiA />
-
+      <PbiA />
     </div>
   );
 }
