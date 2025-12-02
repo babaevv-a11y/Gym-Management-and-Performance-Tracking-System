@@ -1,0 +1,60 @@
+.feedback-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.feedback-header h1 {
+  margin-bottom: 5px;
+}
+
+.feedback-header p {
+  margin-top: 0;
+  color: #555;
+}
+
+.session-info,
+.feedback-section,
+.feedback-actions {
+  margin-top: 25px;
+}
+
+.rating-options label {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+.comment-section textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.feedback-actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feedback-actions button {
+  padding: 8px 14px;
+  border: 1px solid #444;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.feedback-actions button:hover {
+  background-color: #ddd;
+}
+
+.save-message {
+  margin-left: 10px;
+  color: green;
+  font-weight: bold;
+}
