@@ -1,0 +1,110 @@
+.adherence-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.adherence-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222222;
+}
+
+.adherence-header p {
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.adherence-note {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #777777;
+}
+
+.adherence-chart-section {
+  margin-top: 18px;
+}
+
+.adherence-chart-section h2 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333333;
+}
+
+.adherence-bar-track {
+  display: flex;
+  width: 100%;
+  height: 26px;
+  border-radius: 13px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  margin-bottom: 12px;
+}
+
+.adherence-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.segment-completed {
+  background-color: #3ba55d;
+}
+
+.segment-partial {
+  background-color: #f5a623;
+}
+
+.segment-missed {
+  background-color: #e55353; 
+}
+
+.segment-label {
+  padding: 0 6px;
+}
+
+
+.adherence-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.adherence-legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #444444;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.legend-dot.segment-completed {
+  background-color: #3ba55d;
+}
+
+.legend-dot.segment-partial {
+  background-color: #f5a623;
+}
+
+.legend-dot.segment-missed {
+  background-color: #e55353;
+}
+
+.legend-text {
+  line-height: 1.3;
+}
