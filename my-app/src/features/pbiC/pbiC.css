@@ -1,0 +1,88 @@
+.session-logging-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.session-logging-header h1 {
+  margin-bottom: 5px;
+}
+
+.session-logging-header p {
+  margin-top: 0;
+  color: #555;
+}
+
+.session-info,
+.exercise-list,
+.session-summary,
+.session-actions {
+  margin-top: 20px;
+}
+
+.exercise-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.exercise-table th,
+.exercise-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.exercise-table th {
+  background-color: #f4f4f4;
+}
+
+.status-options label {
+  font-size: 0.9rem;
+}
+
+.status-options input {
+  margin-right: 4px;
+}
+
+.session-comment-box textarea,
+.exercise-table textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.session-status-options {
+  margin-top: 10px;
+}
+
+.session-status-options label {
+  font-size: 0.95rem;
+}
+
+.session-actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.session-actions button {
+  padding: 6px 14px;
+  border: 1px solid #444;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.session-actions button:hover {
+  background-color: #ddd;
+}
+
+.save-message {
+  margin: 0;
+  color: green;
+  font-weight: bold;
+}
