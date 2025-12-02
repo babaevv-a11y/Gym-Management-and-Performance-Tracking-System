@@ -1,9 +1,9 @@
-import PbiA from "./features/pbiA/pbiA";
+import PbiD from "./features/pbiD/pbiD";
 
 function App() {
   return (
     <div>
-      <PbiA />
+      <PbiD />
     </div>
   );
 }
